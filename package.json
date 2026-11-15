@@ -8,15 +8,24 @@
     "mock-server": "mockoon-cli start --data ./mocks/banco-api.json --port 3000"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Este é um projeto de aplicação web criado para fins educacionais, com o objetivo de ensinar conceitos de teste de software. Ele consome uma API REST (Banco API) e oferece funcionalidades como login, transferências entre contas e listagem de transferências.",
   "dependencies": {
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
   "devDependencies": {
-    "@mockoon/cli": "^9.1.0"
-  }
+    "@mockoon/cli": "^9.1.0",
+    "cypress": "^16.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliodelimas/banco-web.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/juliodelimas/banco-web/issues"
+  },
+  "homepage": "https://github.com/juliodelimas/banco-web#readme"
 }
